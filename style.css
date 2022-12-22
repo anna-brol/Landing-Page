@@ -71,6 +71,12 @@ body {
   .button {
     margin-left: 236px;
     margin-bottom: 0;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 10px 20px;
+    color: #f9faf8;
   }
 
   .placeholder {
@@ -91,18 +97,75 @@ body {
     flex: 1 1 0;
    }
 
-   button {
-    font-family: Roboto, sans-serif;
-    border: none;
-    border-radius: 8px;
-    background: #3882f6;
-    padding: 10px 20px;
-    color: #f9faf8;
+
+
+  .con {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
   }
 
+  .square {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: none, #3882f6;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition-duration: 1s;
+    }
+
+    .two {
+      display: flex;
+      justify-content: center;
+      color: #1f2937;
+      font-size: 38px;
+      font-weight: bolder;
+      margin-top: 50px;
+    }
+
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1f2937;
+      font-size: 18px;
+      margin-top: 10px;
+    }
 
 
 
+    .quote {
+      display: flex;
+      background: grey;
+      flex-direction: column;
+      
+    }
+
+    .text_quote {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1f2937;
+      font-size: 24px;
+      margin-top: 150px;
+      margin-right: 237px;
+      margin-left: 237px;
+    }
+      
+    .authore {
+      display: flex;
+      justify-content: end;
+      color: #1f2937;
+      font-size: 24px;
+      margin-top: 10px;
+      margin-right: 237px;
+      margin-bottom: 150px;
+    }
 
 
 
