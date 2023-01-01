@@ -112,12 +112,15 @@ body {
 
   .square {
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     border: none, #3882f6;
+    background-color: white;
     border-radius: 8px;
     padding: 10px 20px;
     transition-duration: 1s;
+    text-align: center;
+    align-items: center;
     }
 
     .two {
@@ -131,7 +134,7 @@ body {
 
     .text {
       display: flex;
-      justify-content: center;
+      text-align: center;
       align-items: center;
       color: #1f2937;
       font-size: 18px;
@@ -166,19 +169,47 @@ body {
       margin-top: 10px;
       margin-right: 237px;
       margin-bottom: 150px;
+      font-weight: bolder;
+    }
+
+
+    .box {
+      display: flex;
+      background-color: #3882f6;
+      margin-left: 237px;
+      margin-right: 237px;
+      margin-bottom: 80px;
+      margin-top: 80px;
+      border: none;
+      border-radius: 8px;
+      justify-content: space-around;
+      align-items: center;
     }
 
 
 
 
+    .frame {
+      display: flex;
+      margin: 0;
+      font-family: Roboto, sans-serif;
+      border: white;
+      border-radius: 8px;
+      color: #3882f6;
+      width: 100px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
 
+    .bold {
+      font-weight: bolder;
+    }
 
-
-
-
-
-
-
+   .color {
+    color: white;
+   }
 
 
 
